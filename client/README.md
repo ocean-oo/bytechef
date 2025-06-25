@@ -31,4 +31,4 @@ To enable feature flags, create `.env.local` file inside the `client` directory 
 
 - `VITE_FF_EMBEDDED_TYPE_ENABLED` - enables Embedded mode in UI
 
-Test
+Test 2

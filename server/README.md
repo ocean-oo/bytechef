@@ -43,4 +43,4 @@ Check `libs/platform/platform-user/platform-user-service/src/main/resources/conf
 
 For details check [Liquibase documentation](https://docs.liquibase.com/change-types/home.html).
 
-TEst
+TEst 2
