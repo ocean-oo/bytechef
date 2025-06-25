@@ -42,3 +42,5 @@ In order to define database schema changes for particular module follow the next
 Check `libs/platform/platform-user/platform-user-service/src/main/resources/config/liquibase/changelog/platform/user` as an example.
 
 For details check [Liquibase documentation](https://docs.liquibase.com/change-types/home.html).
+
+TEst
