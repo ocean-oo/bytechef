@@ -20,6 +20,14 @@ export function DesktopSidebar({
     }[];
 }) {
     const {pathname} = useLocation();
+    const {openDialog} = useConnectDialog({
+        baseUrl: 'http://127.0.0.1:5173',
+        environment: 'DEVELOPMENT',
+        integrationId: '1050',
+        // integrationInstanceId: '',
+        jwtToken:
+            'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImNIVmliR2xqT21kUWNFMHZjVXRpZVRKcVFsWldlSHBHYTFNeFMxTkpTRTVRVERCRU9WcEwifQ.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.T7lg33lpEDgdN16K5_EeqEutzhkPT5K2FouLz2LnrCi3cGcu-jJPjWz6ROy7VD-kIp0sp0MMmHmIyId_W-hyNtNsgpVWv8TIiEYySCAJy6xk15d6TgPA-1WvitdP1_1h_mPvT188rFRKQeRb7XmcKC3d8meOTAM7PDsbfa9h9Xhj2zyFp4TAktaR1Paevf0WkaIrC11aHK-7oiE_YiNGI4Il56DFXaDg-gqw6wGWuTyzIYyeMkewNozy8SzMS0ET1C1O8Z-uF7wh4UMOqVPGsf7htmBw3WZi663SlTGv4V0HfDOUlg5QF2ITYRnC0jPskqxCf4sVC3HS6WOvl-C0_w',
+    });
 
     return (
         <aside className={twMerge('hidden bg-muted lg:flex lg:shrink-0', className)}>
